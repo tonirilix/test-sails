@@ -30,8 +30,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/abcde/test-sails.git"
+    "url": "git://github.com/tonirilix/test-sails.git"
   },
-  "author": "abcde",
+  "author": "tonirilix",
   "license": ""
 }
