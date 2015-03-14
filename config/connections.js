@@ -67,7 +67,8 @@ module.exports.connections = {
 
   MongoLabMongoDb: {
     adapter: 'sails-mongo',
-    url: process.env.MONGOLAB_URI    
+    url: process.env.MONGOLAB_URI
+    //url: 'mongodb://$OPENSHIFT_MONGODB_DB_HOST:$OPENSHIFT_MONGODB_DB_PORT/'
     // host: 'localhost',
     // port: 27017,
     // user: 'username',
