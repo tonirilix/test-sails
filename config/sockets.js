@@ -44,11 +44,12 @@ module.exports.sockets = {
   // -OR-
   //
 
-  // adapter: 'redis',
-  // host: '127.0.0.1',
-  // port: 6379,
+  adapter: 'socket.io-redis',
+  host: 'angelfish.redistogo.com',
+  port: 11129,
+  user: 'redistogo',
+  pass: '289cd25ba3cf5cbb33bf37853f43fe36'
   // db: 'sails',
-  // pass: '<redis auth password>'
 
 
 
